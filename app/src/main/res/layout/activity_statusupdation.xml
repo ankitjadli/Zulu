@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Statusupdation">
+
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/statusupdatetoolbar"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="344dp"
+        android:layout_height="52dp"
+        tools:layout_editor_absoluteY="92dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/statusupdatetoolbar"
+        android:id="@+id/entrrstats">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/enterstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your New Status"
+            android:layout_marginTop="30dp"
+
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/updatestatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+       android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/entrrstats"/>
+</RelativeLayout>

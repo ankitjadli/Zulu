@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "942095209059",
+    "firebase_url": "https://supbruh-adbea.firebaseio.com",
+    "project_id": "supbruh-adbea",
+    "storage_bucket": "supbruh-adbea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942095209059:android:001270b73005ca83",
+        "android_client_info": {
+          "package_name": "com.example.ankit.supbruh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942095209059-9n5rgbh68h7hq8c0i0n60db7umh1cmta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankit.supbruh",
+            "certificate_hash": "f1fc5add229511c1990418e0815b2024c2468f7d"
+          }
+        },
+        {
+          "client_id": "942095209059-jp04oqodfc2d8orbglgnb6vmn26jne6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR6zB0q_cqrM5yp2U4HoZf9D6F1a7eL0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942095209059-jp04oqodfc2d8orbglgnb6vmn26jne6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

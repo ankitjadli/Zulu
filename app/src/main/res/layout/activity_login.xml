@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/registerpage">
+
+
+    <include layout="@layout/black_appbay_layout"
+        android:id="@+id/blackbarontop"/>
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/darklogog"
+        android:layout_below="@+id/blackbarontop"
+        android:background="@drawable/darklogo"/>
+    <TextView
+        android:layout_width="110sp"
+        android:layout_height="45sp"
+        android:layout_marginStart="17dp"
+        android:layout_below="@+id/blackbarontop"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/signupboi"/>
+    <ImageView
+        android:layout_width="335dp"
+        android:layout_height="360dp"
+        android:background="@drawable/fields"
+        android:id="@+id/fields"
+        android:layout_below="@+id/darklogog"
+        android:layout_marginTop="-70dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/registerbttn"
+        android:layout_width="355dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+
+        android:background="@drawable/register">
+
+    </Button>
+
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="90sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/darklogog"
+        android:layout_marginTop="-125dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/profile" />
+    <EditText
+        android:id="@+id/registerusername"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/fields"
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="tap tap"
+        />
+
+    <EditText
+        android:id="@+id/registeremail"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/registerusername"
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:hint="tap tap"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/regissterpassword"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/registeremail"
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:hint="tap tap"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirmregisterpassword"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/regissterpassword"
+        android:ems="10"
+        android:hint="tap tap"
+        android:inputType="textPassword" />
+
+
+</RelativeLayout>

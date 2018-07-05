@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FriendsFragment"
+    android:background="@drawable/chatbackground">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/reqtab"
+            android:id="@+id/reqtab"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-15dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/showrequests"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/reqtab"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/showprofile"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/showprofile"
+            android:background="@drawable/showprofile"
+            android:layout_marginBottom="-10dp"
+
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

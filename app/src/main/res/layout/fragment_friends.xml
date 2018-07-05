@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FriendsFragment"
+    android:background="@drawable/chatbackground"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/friendstab"
+            android:id="@+id/friendstab"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-15dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/showfriends"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/friendstab"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/addfriend"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/addfriend"
+            android:background="@drawable/addfriend"
+            android:layout_marginBottom="-10dp"
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

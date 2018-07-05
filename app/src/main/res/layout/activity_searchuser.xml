@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".searchuser"
+    android:background="@drawable/chatbackground">
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/searchbartop"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/info"
+        android:id="@+id/infoo"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/infoo"
+        android:layout_marginTop="-20dp"
+        android:background="@color/blackcolor"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/userslist"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="150dp"
+        android:background="@color/white"
+        android:layout_marginLeft="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="25dp"
+        android:layout_below="@+id/infoo"
+android:layout_marginTop="-6dp"
+
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/search"
+        android:background="@drawable/whitebttn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="0dp"
+
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/hands"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/searchtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:ems="10"
+        android:hint="Email goes here"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/white"
+        />
+
+
+
+
+
+</RelativeLayout>

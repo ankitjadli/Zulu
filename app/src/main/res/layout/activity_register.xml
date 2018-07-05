@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backk"
+    tools:context=".REGISTER">
+
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:background="@drawable/logotittle"
+        android:id="@+id/logos"/>
+
+
+    <ImageView
+        android:layout_width="325dp"
+        android:layout_height="220dp"
+         android:layout_below="@+id/logos"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/emailpass"
+       android:layout_marginTop="-54dp"
+        android:id="@+id/emailpass"/>
+
+    <Button
+        android:id="@+id/loginbttn"
+        android:layout_width="325dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/emailpass"
+        android:background="@drawable/loginbtn" />
+
+    <Button
+        android:id="@+id/newuserbttn"
+        android:layout_width="160dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/newuser" />
+
+    <EditText
+        android:id="@+id/loginemail"
+        android:layout_width="250dp"
+        android:layout_height="50.38dp"
+        android:layout_marginTop="65dp"
+        android:layout_alignTop="@+id/emailpass"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="tap tap"
+        android:inputType="textEmailAddress"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/loginpassowrd"
+        android:layout_width="250dp"
+        android:layout_height="50.38dp"
+        android:layout_below="@+id/loginemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="tap tap"
+        android:inputType="textPassword" />
+
+
+</RelativeLayout>

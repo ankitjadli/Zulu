@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <include layout="@layout/barforchatlayout"
+        android:id="@+id/barforcharlayout"
+
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/type_msgs"
+        android:layout_below="@+id/barforcharlayout"
+        android:id="@+id/chatrecyclerview"
+        android:background="@drawable/chatbackground"
+
+
+        >
+   </android.support.v7.widget.RecyclerView>
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/sendurmsg"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bttntest"
+        >
+
+    </Button>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:id="@+id/type_msgs">
+
+        <EditText
+            android:id="@+id/getmsg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="0dp"
+
+            android:background="@android:color/black"
+            android:ems="10"
+            android:hint='"Enter Text"'
+            android:inputType="textPersonName"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>
