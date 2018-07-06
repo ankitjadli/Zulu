@@ -2,11 +2,10 @@
 
 Zulu is an open source web based Chat aplication developed using Firebase features.
 
-Features used :
-1. Firebase Databse
-2. Firebase Authentication
-3. Firebase Storage( for Profile Images)
-4. Firebase Functions
+## Features 
+
+![featuresused 2x](https://user-images.githubusercontent.com/37221963/42370593-c8d3dba6-812a-11e8-8495-a2fcb7a8ecc0.png)
+
 
 ## UI
 ![1-1 login 2x](https://user-images.githubusercontent.com/37221963/42367936-57fa583a-8123-11e8-9d85-087f586abbe3.png)
