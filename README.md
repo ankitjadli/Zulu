@@ -16,7 +16,7 @@ Zulu is an open source web based Chat aplication developed using Firebase featur
 Zulu sends notifications using Firebase Functions and Firebase Notifications.It supports Friends request notifications for now and soon messages notification code wiLl be added.
 
 
-#### JS code for Friends Request Notification to the requested user :
+#### JS code for Friend Request Notification to the Requested user :
 
 
 ```
