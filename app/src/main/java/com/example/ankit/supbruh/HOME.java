@@ -17,7 +17,7 @@ public class HOME extends AppCompatActivity {
 
     FirebaseAuth matuth;
     DatabaseReference mdatabse;
-    FirebaseUser crrntuser;
+
     String user;
 
     @Override
@@ -34,9 +34,9 @@ public class HOME extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-
-        FirebaseUser currentuser = matuth.getCurrentUser();
-        if (currentuser==null)
+        FirebaseUser crrntuser;
+        crrntuser = matuth.getCurrentUser();
+        if (crrntuser==null)
         {
             Intent gotoregisteractivity = new Intent(HOME.this,REGISTER.class);
             startActivity(gotoregisteractivity);

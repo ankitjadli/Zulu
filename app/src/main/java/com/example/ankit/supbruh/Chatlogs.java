@@ -41,6 +41,7 @@ public class Chatlogs extends AppCompatActivity {
         getSupportActionBar().setTitle(" ");
 
         mtablayout=(TabLayout)findViewById(R.id.main_tabs);
+
         mtablayout.setupWithViewPager(mViewPager);
         mtablayout.getTabAt(0).setIcon(R.drawable.req);
         mtablayout.getTabAt(1).setIcon(R.drawable.chat);

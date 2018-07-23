@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -28,6 +29,7 @@ public class REGISTER extends AppCompatActivity {
     EditText pass;
     Button login ;
     FirebaseAuth mauth;
+    LottieAnimationView lottieAnimationView;
 
 
     private ProgressDialog mprogressdialog;
@@ -38,7 +40,8 @@ public class REGISTER extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-
+        lottieAnimationView = (LottieAnimationView) findViewById(R.id.animation_view);
+        lottieAnimationView.playAnimation();
         register = (Button) findViewById(R.id.newuserbttn);
         email=(EditText)findViewById(R.id.loginemail);
         pass=(EditText)findViewById(R.id.loginpassowrd);
@@ -120,4 +123,5 @@ public class REGISTER extends AppCompatActivity {
         });
 
     }
+
 }

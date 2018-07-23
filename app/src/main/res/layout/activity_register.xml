@@ -7,6 +7,16 @@
     android:background="@drawable/backk"
     tools:context=".REGISTER">
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        android:layout_alignParentTop="true"
+        app:lottie_fileName="loginpageanimation.json"
+        app:lottie_loop="true"/>
+
 
     <ImageView
         android:layout_alignParentTop="true"
@@ -20,10 +30,10 @@
     <ImageView
         android:layout_width="325dp"
         android:layout_height="220dp"
-         android:layout_below="@+id/logos"
+        android:layout_below="@+id/logos"
         android:layout_centerHorizontal="true"
         android:background="@drawable/emailpass"
-       android:layout_marginTop="-54dp"
+        android:layout_marginTop="-54dp"
         android:id="@+id/emailpass"/>
 
     <Button
