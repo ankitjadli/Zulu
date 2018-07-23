@@ -14,7 +14,8 @@
         android:layout_gravity="center"
         app:lottie_autoPlay="true"
         android:layout_alignParentTop="true"
-        app:lottie_fileName="loginpageanimation.json"
+        app:lottie_imageAssetsFolder="images"
+        app:lottie_fileName="datanewwithimg.json"
         app:lottie_loop="true"/>
 
 
