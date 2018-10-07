@@ -7,18 +7,6 @@
     android:background="@drawable/backk"
     tools:context=".REGISTER">
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animation_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        app:lottie_autoPlay="true"
-        android:layout_alignParentTop="true"
-        app:lottie_imageAssetsFolder="images"
-        app:lottie_fileName="datanewwithimg.json"
-        app:lottie_loop="true"/>
-
-
     <ImageView
         android:layout_alignParentTop="true"
         android:layout_marginTop="30dp"
