@@ -29,19 +29,16 @@ public class REGISTER extends AppCompatActivity {
     EditText pass;
     Button login ;
     FirebaseAuth mauth;
-    LottieAnimationView lottieAnimationView;
-
-
+   // LottieAnimationView lottieAnimationView;
     private ProgressDialog mprogressdialog;
 
-
-
+     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        lottieAnimationView = (LottieAnimationView) findViewById(R.id.animation_view);
-        lottieAnimationView.playAnimation();
+        //lottieAnimationView = (LottieAnimationView) findViewById(R.id.animation_view);
+       // lottieAnimationView.playAnimation();
         register = (Button) findViewById(R.id.newuserbttn);
         email=(EditText)findViewById(R.id.loginemail);
         pass=(EditText)findViewById(R.id.loginpassowrd);
