@@ -1,6 +1,7 @@
 # Zulu
 
 Zulu is an open source web based Chat aplication developed using Firebase features.
+UI referened from : https://www.invisionapp.com/inside-design/design-resources/chat/
 
 ## Features 
 
